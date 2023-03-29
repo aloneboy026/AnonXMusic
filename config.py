@@ -7,14 +7,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "25286995"))
-API_HASH = getenv("API_HASH", "115a9d0051091db1bdb496669206fdc0")
+API_ID = int(getenv("API_ID", "25058013"))
+API_HASH = getenv("API_HASH", "8c03e5160bfcc564c95bbf0e3edd6067")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5791761493:AAETi8BI0XGsHqs_wMGLeKWf79uxz5reaA0")
-
+BOT_TOKEN = getenv("BOT_TOKEN", "5648256018:AAEnYqWof7ERFmAZV5kqQM3RpCoOylBwoR0")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kittuthemeoe:kiranraj@cluster0.mv6oj.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001745108048"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴍɪss ᴀɴɢᴇʟ ダ ᴍᴜsɪᴄ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001853853435"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴄᴀᴛ ダ ᴍᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5613528193").split()))
 
@@ -58,7 +57,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQB8Ra1FxJ5v0dhOnKRdUQk00S6YWrUOZoTdJUh-brxS9_cj41WLYqUsr4K6SfIf9CZzrENCyaprRkxIATL6SxlCQMI1QI0D-5XTuTqzm44ad1gdcRmhknqSHGqGQP7NRigkY0AbZhjrUwnA205QF-ZrYjVKls6qVNzvWpBlng7RsDxTmhDsvImzWL2C41dVSO-gO-zsmxj0uMZ5OkZRS0witfTAVEfAVfsKsaAWMmAFOcx_idRZwOuW_U3sszaQumR3cir0YkNlxwqeiBZIZ7zHjm0WedXw88aGvx_v-7Fcy6M7ZGPE3jCN2LpQRjJJvYW9g8-7ZC-6yznqVrQVD1ALAAAAAU8stCUA")
+STRING1 = getenv("STRING_SESSION", "BQF-Wt0AOIbtP8SlzuKnC5_JRBV1qxQ7nkcXwnCMVdy3LZhimeXGOcZm3icDmVFM8ntyHI_ilen_FQbYElp1E-KX8WD8psKIVdLH94bLMdmS8wAsRfKKHlwW1N-LwOhSxEvVf04vu6s9MAnzxZ_AQ6mLpzKlAyZTQMkG6sIje885OAQqoj2DZKQxc2MI6s5mPUmZJyB7iAkq1OEWPzV5-_LjiwcFahYMXrTETYw2psMfs5q1gEiXiyOZe8EdoUs2d06YsPyUf6Wkw9lgOpi_lL3lhLDjat9bpJxrLDdU8GVdgJRDww0PnpyCT_SPbRXTbKzJ8_fSnGQApecpsR1eRN2YSJDh0wAAAAFhEMyxAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,11 +75,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/202c8e5a57f1f8597fe2a.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/93a8cad5a043351ac89d0.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/53112d2692ac8d0b499c0.jpg",
+    "https://te.legra.ph/file/468cf34a0ae5d4eea9cb0.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -93,7 +92,7 @@ TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/cd0d9d51c98d6cd5888c6.jpg"
 
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
